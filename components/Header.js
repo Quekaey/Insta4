@@ -24,16 +24,16 @@ const Header = () => {
         {/* Left */}
         <div className="flex">
           <div className="w-28 h-full flex">
-            <Image src={instagram} />
+            <Image alt="" src={instagram} />
           </div>
           <div className="h-3 w-3 mt-1">
-            <Image src={arrowdown} />
+            <Image alt="" src={arrowdown} />
           </div>
         </div>
         {/* Middle */}
         <div className="hidden w-72  sm:flex relative mx-4">
           <div className="absolute flex items-center w-3 h-full ml-2">
-            <Image src={search} />
+            <Image alt="" src={search} />
           </div>
           <input
             type="text"
@@ -44,26 +44,26 @@ const Header = () => {
         {/* Right */}
         <div className="flex space-x-5">
           <div className="Btn hidden sm:flex">
-            <Image src={home} />
+            <Image alt="" src={home} />
           </div>
           <div className="Btn hidden sm:flex relative">
-            <Image src={message} />
+            <Image alt="" src={message} />
             <div className="absolute flex -top-1 left-3.5 items-center justify-center bg-red-500 text-white rounded-full w-4 h-4 text-xs">
               1
             </div>
           </div>
           <div className="Btn" onClick={() => setOpen(!open)}>
-            <Image src={upload} />
+            <Image src={upload} alt=""/>
           </div>
           <div className="Btn hidden sm:flex">
-            <Image src={discover} />
+            <Image src={discover} alt=""/>
           </div>
           <div className="Btn hidden sm:flex">
-            <Image src={hearth} />
+            <Image src={hearth} alt="" />
           </div>
           <div className="flex">
             <div className="Btn mr-5 ">
-              <Image src={profile} className="rounded-full" />
+              <Image src={profile} alt="" className="rounded-full" />
             </div>
             <button className="cursor-pointer text-[#0095f6] font-semibold whitespace-nowrap">
               Sign out
